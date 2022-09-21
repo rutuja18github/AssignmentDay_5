@@ -1,6 +1,10 @@
 package com.assignment;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class SumOfThree {
+	private static final Logger logger = LogManager.getLogger(SumOfThree.class);
 	 void findTriplets(int[] array, int n)
     {
         boolean found = false;
@@ -9,7 +13,7 @@ public class SumOfThree {
             for (int j = i + 1; j < n - 1; j++) {
                 for (int k = j + 1; k < n; k++) {
                     if (array[i] + array[j] + array[k] == 0) {
-                        System.out.println(array[i] + " " + array[j] + " " + array[k]);
+                    	logger.info(array[i] + " " + array[j] + " " + array[k]);
                         found = true;
                     }
                 }
@@ -17,15 +21,7 @@ public class SumOfThree {
         }
         // If no triplet with 0 sum found in array
         if (found == false)
-            System.out.println(" not exist ");
+        	logger.info(" not exist ");
     }
-  
-    // Driver code start execution from here
-    public static void main(String[] args)
-    {
-    	SumOfThree sum=new SumOfThree();
-        int array[] = { 0, -1, 2, -3, 1 };      //Initialize an Array
-        int n = array.length;
-        sum.findTriplets(array, n);
-    }
+ 
 }

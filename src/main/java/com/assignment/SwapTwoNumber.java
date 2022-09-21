@@ -2,7 +2,11 @@ package com.assignment;
 
 import java.util.Scanner;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class SwapTwoNumber {
+	private static final Logger logger = LogManager.getLogger(SwapTwoNumber.class);
 	int a;
 	int b;
     
@@ -10,22 +14,16 @@ public class SwapTwoNumber {
 	public void swapNumber() {
 		// Use Scanner class to take input from user
 		Scanner s = new Scanner(System.in);
-		System.out.print("Enter First Number a=");
+		logger.info("Enter First Number a=");
 		a = s.nextInt();
-		System.out.print("Enter Second Number b=");
+		logger.info("Enter Second Number b=");
 		b = s.nextInt();
 		s.close();
 		a = a + b;
 		b = a - b;
 		a = a - b;
-		System.out.println("After swapping: ");
-		System.out.println("a=" + a + " b= " + b);
-	}
-
-	// Driver code start execution from here
-	public static void main(String[] args) {
-		SwapTwoNumber swapObj = new SwapTwoNumber();
-		swapObj.swapNumber();
+		logger.info("After swapping: ");
+		logger.info("a=" + a + " b= " + b);
 	}
 
 }

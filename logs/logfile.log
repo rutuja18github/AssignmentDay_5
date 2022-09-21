@@ -1,0 +1,35 @@
+INFO  | 2022-09-19 02:34:33 | [main] assignment.HarmonicNumber (HarmonicNumber.java:17) - Enter Number :
+INFO  | 2022-09-19 02:34:39 | [main] assignment.HarmonicNumber (HarmonicNumber.java:24) - Nth Harmonic Value : 3.9271712
+INFO  | 2022-09-21 22:32:56 | [main] assignment.App (App.java:15) - Hello World!
+INFO  | 2022-09-21 22:32:56 | [main] assignment.HarmonicNumber (HarmonicNumber.java:17) - Enter Number :
+INFO  | 2022-09-21 22:33:02 | [main] assignment.HarmonicNumber (HarmonicNumber.java:24) - Nth Harmonic Value : 1.5
+INFO  | 2022-09-21 22:33:07 | [main] assignment.App (App.java:15) - Hello World!
+INFO  | 2022-09-21 22:33:07 | [main] assignment.HarmonicNumber (HarmonicNumber.java:17) - Enter Number :
+INFO  | 2022-09-21 22:33:10 | [main] assignment.HarmonicNumber (HarmonicNumber.java:24) - Nth Harmonic Value : 2.2833335
+INFO  | 2022-09-21 22:34:11 | [main] assignment.App (App.java:15) - Hello World!
+INFO  | 2022-09-21 22:34:11 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:17) - Enter First Number a=
+INFO  | 2022-09-21 22:34:15 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:19) - Enter Second Number b=
+INFO  | 2022-09-21 22:34:17 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:25) - After swapping: 
+INFO  | 2022-09-21 22:34:17 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:26) - a=5 b= 2
+INFO  | 2022-09-21 22:35:32 | [main] assignment.App (App.java:16) - Hello World!
+INFO  | 2022-09-21 22:35:32 | [main] assignment.SumOfThree (SumOfThree.java:16) - 0 -1 1
+INFO  | 2022-09-21 22:35:32 | [main] assignment.SumOfThree (SumOfThree.java:16) - 2 -3 1
+INFO  | 2022-09-21 22:36:05 | [main] assignment.App (App.java:16) - Hello World!
+INFO  | 2022-09-21 22:36:05 | [main] assignment.SumOfThree (SumOfThree.java:16) - 2 -3 1
+INFO  | 2022-09-21 22:36:15 | [main] assignment.App (App.java:16) - Hello World!
+INFO  | 2022-09-21 22:36:15 | [main] assignment.SumOfThree (SumOfThree.java:16) - 1 2 -3
+INFO  | 2022-09-21 22:36:15 | [main] assignment.SumOfThree (SumOfThree.java:16) - 2 -3 1
+INFO  | 2022-09-21 22:41:30 | [main] assignment.App (App.java:18) - Which program you want to run
+INFO  | 2022-09-21 22:41:30 | [main] assignment.App (App.java:19) - 1.Harmonic Number
+INFO  | 2022-09-21 22:41:30 | [main] assignment.App (App.java:20) - 2.Swapping of Two Number
+INFO  | 2022-09-21 22:41:30 | [main] assignment.App (App.java:21) - 3.Sum Of Three Integer
+INFO  | 2022-09-21 22:41:33 | [main] assignment.HarmonicNumber (HarmonicNumber.java:17) - Enter Number :
+INFO  | 2022-09-21 22:41:43 | [main] assignment.HarmonicNumber (HarmonicNumber.java:24) - Nth Harmonic Value : 2.2833335
+INFO  | 2022-09-21 22:41:49 | [main] assignment.App (App.java:18) - Which program you want to run
+INFO  | 2022-09-21 22:41:49 | [main] assignment.App (App.java:19) - 1.Harmonic Number
+INFO  | 2022-09-21 22:41:49 | [main] assignment.App (App.java:20) - 2.Swapping of Two Number
+INFO  | 2022-09-21 22:41:49 | [main] assignment.App (App.java:21) - 3.Sum Of Three Integer
+INFO  | 2022-09-21 22:41:52 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:17) - Enter First Number a=
+INFO  | 2022-09-21 22:41:55 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:19) - Enter Second Number b=
+INFO  | 2022-09-21 22:41:56 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:25) - After swapping: 
+INFO  | 2022-09-21 22:41:56 | [main] assignment.SwapTwoNumber (SwapTwoNumber.java:26) - a=6 b= 5
